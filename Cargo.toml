@@ -9,4 +9,5 @@ edition = "2018"
 [dependencies]
 cpal = "0.13.1"
 anyhow = "1.0.34"
-tuix = {git = "https://github.com/geom3trik/tuix", branch = "main"}
+tuix = {git= "https://github.com/geom3trik/tuix", branch = "main"}
+crossbeam-channel = "0.5.0"
